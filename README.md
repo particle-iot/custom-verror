@@ -4,6 +4,8 @@ Simple class extending [VError](https://www.npmjs.com/package/verror) for easy c
 
 ## Usage
 
+Here is the basic usage. For more use cases, see [the tests](test/CustomError.spec.js).
+
 #### 1. Define your error
 
 `UserNotAllowedError.js`

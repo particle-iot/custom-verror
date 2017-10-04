@@ -2,9 +2,11 @@
   "name": "custom-verror",
   "version": "0.1.0",
   "description": "Simple class extending VError for easy custom error creation",
-  "main": "lib/CustomError.js",
+  "main": "lib/CustomVError.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/ -R spec",
+    "lint": "eslint -f unix .",
+    "lint:fix": "eslint --fix -f unix ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "homepage": "https://github.com/spark/custom-verror#readme",
   "dependencies": {
     "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.8.0",
+    "eslint-config-particle": "^2.0.0",
+    "mocha": "^4.0.0"
   }
 }
