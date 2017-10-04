@@ -22,7 +22,7 @@ module.exports = class UserNotAllowedError extends CustomVError {
 		// Provide a default message
 		this.message = this.message || 'User is not allowed to perform this action';
 	}
-}
+};
 ```
 
 #### 2. Throw your error
