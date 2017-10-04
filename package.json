@@ -1,6 +1,6 @@
 {
   "name": "custom-verror",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple class extending VError for easy custom error creation",
   "main": "lib/CustomError.js",
   "scripts": {
