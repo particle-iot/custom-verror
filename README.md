@@ -1,4 +1,5 @@
 # Custom VError
+[![Build Status](https://travis-ci.org/spark/custom-verror.svg?branch=master)](https://travis-ci.org/spark/custom-verror)
 
 Simple class extending [VError](https://www.npmjs.com/package/verror) for easy custom error creation.
 
