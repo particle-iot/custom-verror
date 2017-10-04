@@ -50,11 +50,19 @@ describe('CustomVError', function () {
 		// TODO: I don't know what all this code in get message is supposed to do
 	});
 
-	it('matches error using instanceof', function () {
+	it('matches custom error class using instanceof', function () {
 		try {
 			throw new TestError();
 		} catch (error) {
 			expect(error instanceof TestError).to.eq(true);
+		}
+	});
+
+	it('matches Node Error class using instanceof', function () {
+		try {
+			throw new TestError();
+		} catch (error) {
+			expect(error instanceof Error).to.eq(true);
 		}
 	});
 });
