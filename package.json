@@ -1,0 +1,22 @@
+{
+  "name": "custom-verror",
+  "version": "0.0.1",
+  "description": "Simple class extending VError for easy custom error creation",
+  "main": "lib/CustomError.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spark/custom-verror.git"
+  },
+  "author": "Wojtek 'suda' Siudzinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spark/custom-verror/issues"
+  },
+  "homepage": "https://github.com/spark/custom-verror#readme",
+  "dependencies": {
+    "verror": "^1.10.0"
+  }
+}
