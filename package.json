@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spark/custom-verror.git"
+    "url": "git+https://github.com/particle-iot/custom-verror.git"
   },
   "author": "Wojtek 'suda' Siudzinski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spark/custom-verror/issues"
+    "url": "https://github.com/particle-iot/custom-verror/issues"
   },
-  "homepage": "https://github.com/spark/custom-verror#readme",
+  "homepage": "https://github.com/particle-iot/custom-verror#readme",
   "dependencies": {
     "verror": "^1.10.0"
   },
