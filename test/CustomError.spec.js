@@ -65,4 +65,14 @@ describe('CustomVError', function () {
 			expect(error instanceof Error).to.eq(true);
 		}
 	});
+
+	it('serializes name, message and code', function () {
+		try {
+			throw new TestError();
+		} catch (error) {
+			expect(JSON.stringify(error)).to.eql('{"name":"TestError","message":"Test message"}');
+			error.code = 123;
+			expect(JSON.stringify(error)).to.eql('{"name":"TestError","message":"Test message","code":123}');
+		}
+	});
 });
